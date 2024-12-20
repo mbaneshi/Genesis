@@ -52,6 +52,9 @@ genesis = [
 [tool.black]
 line-length = 120
 
+[tool.uv.workspace]
+members = ["play-ground"]
+
 [project.scripts]
 gs = "genesis._main:main"
 
